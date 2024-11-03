@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>speech</title>
+<style>
+.btn-div{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+body{
+background-color: lightblue;
+font-family:cursive;
+}
+#text{
+height: 100px;
+width:300px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+padding:10% 20%;
+border-radius:10px;
+background-color:#eeeeee;
+}
+input[type="button"]{
+padding:5px 10px;
+margin:2% 5%;
+border:none;
+scale:2;
+}
+#rec-start-btn{
+background-color:green;
+color:white;
+}
+#rec-stop-btn{
+background-color:red;
+color:white;
+}
+</style>
+</head>
+<body>
+<div class="main-div">
+<h1 id="text"></h1>
+<div class="btn-div">
+<input type="button" value="record" id="rec-start-btn"/>
+<input type="button" value="stop" id="rec-stop-btn"/>
+</div>
+</div>
+<script src="./script.js">
+</script>
+</body>
+</html>
